@@ -18,12 +18,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screencapture-gcrane93-github-io-recipe-page-2025-03-02-19_46_58.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repository](https://github.com/GCrane93/recipe-page)
+- Live Site URL: [GitHub Page](https://gcrane93.github.io/recipe-page/)
 
 ## My process
 
