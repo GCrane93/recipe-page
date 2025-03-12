@@ -148,11 +148,14 @@ hr {
 }
 .recipe__information table {
   width: 100%;
-  margin: 1rem 0;
+  margin: 1rem 0 0;
   border-collapse: collapse;
 }
-.recipe__information table tr {
+.recipe__information table tr:not(:last-of-type) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.recipe__information table tr:last-of-type td {
+  padding: 1rem 2rem 0;
 }
 .recipe__information table td {
   padding: 1rem 2rem;

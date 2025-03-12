@@ -162,11 +162,19 @@ hr {
   &__information {
     table {
       width: 100%;
-      margin: 1rem 0;
+      margin: 1rem 0 0;
       border-collapse: collapse;
 
       tr {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        &:not(:last-of-type) {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        &:last-of-type {
+          td {
+            padding: 1rem 2rem 0;
+          }
+        }
       }
 
       td {
